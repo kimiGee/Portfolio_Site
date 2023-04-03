@@ -1,0 +1,46 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css");
+body {
+  height: 100%;
+  background-color: #ffffff;
+  margin: 0;
+  font-family: "Poppins";
+}
+
+h1 {
+  font-size: 4em;
+  font-weight: bold;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2em;
+  margin: 10em 0;
+}
+
+.nav-link {
+  font-family: "Poppins";
+  font-weight: bold;
+}
+
+.nav-item {
+  margin-left: 2em;
+}
+
+.greeting {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  bottom: 0;
+  right: 0;
+}
+
+.cloud-container {
+  position: relative;
+}
+
+svg {
+  bottom: 0;
+  left: 0;
+  /* overflow: visible; */
+}
